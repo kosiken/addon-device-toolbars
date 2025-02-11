@@ -34,6 +34,7 @@
     "@storybook/react-native-ui": "^8.5.4"
   },
   "devDependencies": {
+    "@risemaxi/sigil": "^1.1.1",
     "@types/node": "^18.15.0",
     "@types/react": "^18.2.65",
     "cross-env": "^7.0.3",
@@ -47,7 +48,10 @@
     "zx": "^7.2.3"
   },
   "peerDependencies": {
-    "storybook": "^8.3.0 || 0.0.0-pr-26654-sha-49d01553"
+    "@risemaxi/sigil": ">=1.1.1",
+    "react": "*",
+    "react-native": "*",
+    "react-native-svg": ">=14"
   },
   "overrides": {
     "storybook": "0.0.0-pr-26654-sha-49d01553"
